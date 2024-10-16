@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.desc1 {
+    background: #141e30;
+    padding: 200px 0;
+}
+
+.desc1_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.heading span {
+    background: #ed213a;  
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: block;
+    font-size: 80px;
+}
+
+.explan {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.parts {
+    font-size: 25px;
+    margin-bottom: 300px;
+    margin-top: 300px;
+    color: white;
+}
+
+.image {
+    width: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 60px;
+    }
+
+    .explan {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .image {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image {
+        width: 450px;
+    }
+}
+
